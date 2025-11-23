@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dragões e seus Montadores</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Dragões e seus Montadores</a></h1>
+        <div>
+            <input type="text" id="search" placeholder="Buscar dragão ou montador">
+            <button type="button" id="botaoBusca" class="botao-busca">Buscar</button>
+        </div>
+    </header>
+    <main>
+        <section class="cards-container"></section>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="fecharModal" class="fechar">&times;</span>
+            <img id="modalImg" src="" alt="Imagem do Montador"
+                style="width:100%; max-width:200px; display:block; margin:auto;">
+            <h2 id="modalNome"></h2>
+            <p id="modalPeriodo"></p>
+            <p id="modalBio"></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-location">Brasil</div>
+        <ul class="footer-links">
+            <li><a href="https://github.com/anaclaudiaguedes1234-max" target="_blank">github</a></li>
+            <li><a href="https://www.linkedin.com/in/ana-claudia-dos-santos-guedes-71b762196/?skipRedirect"
+                    target="_blank">linkedin</a></li>
+            <li><a href="mailto:anaclaudiaguedes1234@gmail.com" target="_blank">gmail</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #990000;
+    --secondary-color: #e0e0e0;
+    --tertiary-color: #616161;
+    --bg-color: #121212;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: 'Cinzel', serif;
+}
+
+header {
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: #1a1a1a;
+    z-index: 10;
+    border-bottom: 1px solid var(--tertiary-color);
+    gap: 1rem;
+}
+
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+header a:hover {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+div input {
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    border: 1px solid var(--tertiary-color);
+    background: #1f1f1f;
+    font-family: inherit;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    width: 30rem;
+    color: var(--secondary-color);
+    margin-right: .5rem;
+}
+
+div input::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--tertiary-color);
+    font-family: 'Cinzel', serif;
+}
+
+div input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
+.botao-busca {
+    padding: 0.6rem 1.5rem;
+    border-radius: 0;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.botao-busca:hover {
+    background-color: #7a0000;
+    color: #fff;
+    box-shadow: 0 0 0 0.1rem #7a0000;
+}
+
+.botao-busca:active {
+    transform: scale(0.98);
+}
+
+main {
+    overflow-y: scroll;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: calc(100vh - 10rem - 4rem);
+}
+
+article {
+    background: none;
+    border-radius: 0;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #333;
+    border-left: 3px solid transparent;
+}
+
+article:hover {
+    background-color: #1a1a1a;
+    border-left: 3px solid var(--primary-color);
+    cursor: pointer;
+}
+
+article h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+article p {
+    margin: 0.5rem 0;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+
+article p strong {
+    color: #c0c0c0;
+    font-weight: 700;
+}
+
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: var(--tertiary-color);
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-top: 1px solid #3c4043;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer-location {
+    color: #9aa0a6;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+    }
+
+    div input {
+        width: 90vw;
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    article:hover {
+        transform: none;
+
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+        max-width: 90%;
+        word-wrap: break-word;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    div input,
+    div input::placeholder {
+        font-size: 1rem;
+        width: calc(100% - 2rem);
+        margin: 0 1rem;
+    }
+
+    .botao-busca {
+        width: calc(100% - 2rem);
+        margin: 0.5rem 1rem 0;
+    }
+
+    article h2 {
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid var(--tertiary-color);
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.fechar {
+    color: var(--tertiary-color);
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.link-montador {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.dragao-img {
+    max-width: 200px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 5px;
+
+}

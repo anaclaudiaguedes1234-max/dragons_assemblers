@@ -1,0 +1,411 @@
+[
+  {
+    "nome": "Terrax",
+    "nascimento": "antes de 200 a.C.",
+    "morte": "129 a.C.",
+    "caracteristicas": "Dragão macho de escamas escuras que sobreviveu à Perdição de Valíria.",
+    "montadores": [
+      {
+        "nome": "Jaenara Belaerys",
+        "periodo": "Montou antes da Conquista (datas exatas desconhecidas)"
+      }
+    ]
+  },
+  {
+    "nome": "Skoros",
+    "nascimento": "antes de 0 a.C.",
+    "morte": "antes de 0 a.C.",
+    "caracteristicas": "Dragão fêmea cinza-escuro originária de Valíria.",
+    "montadores": [
+      {
+        "nome": "Aenar Targaryen",
+        "periodo": "Montou antes da Conquista (datas não registradas)"
+      }
+    ]
+  },
+  {
+    "nome": "Balerion",
+    "nascimento": "aprox. 126 a.C.",
+    "morte": "94 d.C.",
+    "caracteristicas": "O Terror Negro, maior dragão já visto em Westeros.",
+    "montadores": [
+      {
+        "nome": "Aegon I Targaryen",
+        "periodo": "Montou entre 1 d.C. e 37 d.C."
+      },
+      {
+        "nome": "Aenys I Targaryen",
+        "periodo": "Montou entre 37 d.C. e 42 d.C."
+      },
+      {
+        "nome": "Maegor I Targaryen",
+        "periodo": "Montou entre 42 d.C. e 48 d.C."
+      },
+      {
+        "nome": "Viserys I Targaryen",
+        "periodo": "Montou entre 93 d.C. e 94 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Vhagar",
+    "nascimento": "52 a.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Uma das três dragões originais da Conquista.",
+    "montadores": [
+      {
+        "nome": "Visenya Targaryen",
+        "periodo": "Montou entre 1 d.C. e 44 d.C."
+      },
+      {
+        "nome": "Baelon Targaryen",
+        "periodo": "Montou entre 87 d.C. e 92 d.C."
+      },
+      {
+        "nome": "Laena Velaryon",
+        "periodo": "Montou entre 115 d.C. e 120 d.C."
+      },
+      {
+        "nome": "Aemond Targaryen",
+        "periodo": "Montou entre 120 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Meraxes",
+    "nascimento": "antes de 0 a.C.",
+    "morte": "10 d.C.",
+    "caracteristicas": "Grande dragão prateado com detalhes dourados, quase do tamanho de Balerion.",
+    "montadores": [
+      {
+        "nome": "Rhaenys Targaryen",
+        "periodo": "Montou entre 1 d.C. e 10 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Quicksilver",
+    "nascimento": "28 d.C.",
+    "morte": "43 d.C.",
+    "caracteristicas": "Dragão de escamas brancas e prateadas, morto em batalha contra Balerion.",
+    "montadores": [
+      {
+        "nome": "Aenys I Targaryen",
+        "periodo": "Montou entre 37 d.C. e 42 d.C."
+      },
+      {
+        "nome": "Aegon Targaryen (O Descoroado)",
+        "periodo": "Montou entre 42 d.C. e 43 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Vermithor",
+    "nascimento": "34 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Chamado Fúria de Bronze, era um dos maiores dragões vivos durante a Dança dos Dragões.",
+    "montadores": [
+      {
+        "nome": "Jaehaerys I Targaryen",
+        "periodo": "Montou entre 48 d.C. e 103 d.C."
+      },
+      {
+        "nome": "Hugh Hammer",
+        "periodo": "Montou entre 129 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Dreamfyre",
+    "nascimento": "35 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão fêmea esbelta de escamas azuis e detalhes prateados.",
+    "montadores": [
+      {
+        "nome": "Rhaena Targaryen (Filha de Aenys I)",
+        "periodo": "Montou entre 47 d.C. e 73 d.C."
+      },
+      {
+        "nome": "Helaena Targaryen",
+        "periodo": "Montou entre 109 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Silverwing",
+    "nascimento": "36 d.C.",
+    "morte": "após 130 d.C.",
+    "caracteristicas": "Dragão fêmea de escamas prateadas, conhecida por ser dócil.",
+    "montadores": [
+      {
+        "nome": "Alysanne Targaryen",
+        "periodo": "Montou entre 50 d.C. e 100 d.C."
+      },
+      {
+        "nome": "Ulf, o Branco",
+        "periodo": "Montou entre 129 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Caraxes",
+    "nascimento": "75 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Conhecido como Vermelho Sangue, feroz e ágil.",
+    "montadores": [
+      {
+        "nome": "Aemon Targaryen",
+        "periodo": "Montou entre 93 d.C. e 99 d.C."
+      },
+      {
+        "nome": "Daemon Targaryen",
+        "periodo": "Montou entre 105 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Meleys",
+    "nascimento": "70 d.C.",
+    "morte": "129 d.C.",
+    "caracteristicas": "Também chamada Rainha Vermelha, conhecida por sua velocidade.",
+    "montadores": [
+      {
+        "nome": "Alyssa Targaryen",
+        "periodo": "Montou entre 83 d.C. e 84 d.C."
+      },
+      {
+        "nome": "Rhaenys Targaryen",
+        "periodo": "Montou entre 103 d.C. e 129 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Syrax",
+    "nascimento": "100 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão fêmea de escamas amarelas, montaria de Rhaenyra.",
+    "montadores": [
+      {
+        "nome": "Rhaenyra Targaryen",
+        "periodo": "Montou entre 104 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Seasmoke",
+    "nascimento": "104 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão rápido, cinza-prata.",
+    "montadores": [
+      {
+        "nome": "Laenor Velaryon",
+        "periodo": "Montou entre 115 d.C. e 120 d.C."
+      },
+      {
+        "nome": "Addam Velaryon",
+        "periodo": "Montou entre 129 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Sunfyre",
+    "nascimento": "112 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Conhecido como O Dourado, considerado o dragão mais bonito já visto.",
+    "montadores": [
+      {
+        "nome": "Aegon II Targaryen",
+        "periodo": "Montou entre 120 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Tessarion",
+    "nascimento": "118 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Conhecida como a Rainha Azul, com fogo azul profundo.",
+    "montadores": [
+      {
+        "nome": "Daeron Targaryen",
+        "periodo": "Montou entre 125 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Vermax",
+    "nascimento": "114 d.C.",
+    "morte": "129 d.C.",
+    "caracteristicas": "Dragão de escamas verdes e bronze, morreu no Gargalo.",
+    "montadores": [
+      {
+        "nome": "Jacaerys Velaryon",
+        "periodo": "Montou entre 120 d.C. e 129 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Arrax",
+    "nascimento": "120 d.C.",
+    "morte": "129 d.C.",
+    "caracteristicas": "Dragão jovem de escamas brancas-pérola e fogo dourado.",
+    "montadores": [
+      {
+        "nome": "Lucerys Velaryon",
+        "periodo": "Montou entre 126 d.C. e 129 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Tyraxes",
+    "nascimento": "120 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão jovem de cor verde pálida.",
+    "montadores": [
+      {
+        "nome": "Joffrey Velaryon",
+        "periodo": "Montou entre 126 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Moondancer",
+    "nascimento": "120 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão pequeno, leve e extremamente rápido.",
+    "montadores": [
+      {
+        "nome": "Baela Targaryen",
+        "periodo": "Montou entre 125 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Sheepstealer",
+    "nascimento": "antes de 100 d.C.",
+    "morte": "após 131 d.C.",
+    "caracteristicas": "Dragão selvagem conhecido por roubar ovelhas e evitar humanos.",
+    "montadores": [
+      {
+        "nome": "Nettles",
+        "periodo": "Montou entre 129 d.C. e 130 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Stormcloud",
+    "nascimento": "127 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão muito jovem, protegido do príncipe Aegon III.",
+    "montadores": [
+      {
+        "nome": "Aegon III Targaryen",
+        "periodo": "Montou em 130 d.C. (brevemente)"
+      }
+    ]
+  },
+  {
+    "nome": "Shrykos",
+    "nascimento": "127 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão fêmea jovem criado no Fosso dos Dragões.",
+    "montadores": [
+      {
+        "nome": "Jaehaerys Targaryen (filho de Aegon II)",
+        "periodo": "Montou entre 127 d.C. e 130 d.C. (reivindicado, nunca montado)"
+      }
+    ]
+  },
+  {
+    "nome": "Morghul",
+    "nascimento": "127 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão macho jovem com escamas negras.",
+    "montadores": [
+      {
+        "nome": "Maelor Targaryen",
+        "periodo": "Montou entre 127 d.C. e 130 d.C. (reivindicado)"
+      }
+    ]
+  },
+  {
+    "nome": "Garnet",
+    "nascimento": "antes de 120 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão selvagem vermelho profundo, reivindicado muito brevemente.",
+    "montadores": [
+      {
+        "nome": "Ser Aemond Velaryon",
+        "periodo": "Montou em 129 d.C. (por pouco tempo)"
+      }
+    ]
+  },
+  {
+    "nome": "Verithor",
+    "nascimento": "aprox. 50 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão jovem de escamas verdes e asas negras.",
+    "montadores": [
+      {
+        "nome": "Gaemon Targaryen",
+        "periodo": "Montou entre 80 d.C. e 100 d.C. (estimado)"
+      }
+    ]
+  },
+  {
+    "nome": "Morning",
+    "nascimento": "130 d.C.",
+    "morte": "desconhecido",
+    "caracteristicas": "Uma das últimas dragões Targaryen nascidas antes da extinção.",
+    "montadores": [
+      {
+        "nome": "Rhaena Targaryen (filha de Daemon)",
+        "periodo": "Montou entre 130 d.C. e data desconhecida"
+      }
+    ]
+  },
+  {
+    "nome": "O Canibal",
+    "nascimento": "muito antes da Conquista (datas desconhecidas)",
+    "morte": "após 130 d.C. (desaparecido)",
+    "caracteristicas": "Dragão selvagem e territorial conhecido por devorar ovos e outros dragões. Nunca foi domado.",
+    "montadores": []
+  },
+  {
+    "nome": "Fantasma Cinzento",
+    "nascimento": "antes de 120 d.C.",
+    "morte": "130 d.C.",
+    "caracteristicas": "Dragão selvagem cinza-fumaça, tímido e evasivo.",
+    "montadores": []
+  },
+  {
+    "nome": "Drogon",
+    "nascimento": "aprox. 298 d.C.",
+    "morte": "vivo",
+    "caracteristicas": "Maior dragão de Daenerys, escamas pretas e chamas vermelhas.",
+    "montadores": [
+      {
+        "nome": "Daenerys Targaryen",
+        "periodo": "Montou entre 298 d.C. e 305 d.C. e além"
+      }
+    ]
+  },
+  {
+    "nome": "Rhaegal",
+    "nascimento": "aprox. 298 d.C.",
+    "morte": "305 d.C.",
+    "caracteristicas": "Dragão de escamas verdes e bronze.",
+    "montadores": [
+      {
+        "nome": "Jon Snow (Aegon Targaryen)",
+        "periodo": "Montou em 305 d.C."
+      }
+    ]
+  },
+  {
+    "nome": "Viserion",
+    "nascimento": "aprox. 298 d.C.",
+    "morte": "305 d.C. (original), seguido por destruição como morto-vivo no mesmo ano",
+    "caracteristicas": "Dragão creme e dourado, mais tarde ressuscitado pelo Rei da Noite.",
+    "montadores": []
+  }
+]
